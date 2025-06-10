@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_builder_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "picture",
+    "description": "Hero section with title, subtitle and background image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subtitle": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "text_color": {
+      "type": "enumeration",
+      "enum": ["white", "black", "primary"],
+      "default": "white"
+    }
+  }
+}

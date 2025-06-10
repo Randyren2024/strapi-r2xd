@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_page_builder_cta_sections",
+  "info": {
+    "displayName": "CTA Section",
+    "icon": "cursor",
+    "description": "Call to action section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "primary_button_text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "primary_button_url": {
+      "type": "string"
+    },
+    "secondary_button_text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "secondary_button_url": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary", "dark", "light"],
+      "default": "primary"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

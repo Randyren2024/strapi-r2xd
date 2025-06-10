@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_value_items",
+  "info": {
+    "displayName": "Value Item",
+    "icon": "star",
+    "description": "Individual company value"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "icon": {
+      "type": "string",
+      "description": "Icon name or SVG"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary", "success", "warning", "info"],
+      "default": "primary"
+    }
+  }
+}

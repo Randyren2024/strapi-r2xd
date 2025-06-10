@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_builder_stats_sections",
+  "info": {
+    "displayName": "Stats Section",
+    "icon": "chart-bar",
+    "description": "Statistics display section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat-item"
+    }
+  }
+}

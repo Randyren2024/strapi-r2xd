@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_builder_team_sections",
+  "info": {
+    "displayName": "Team Section",
+    "icon": "users",
+    "description": "Team members section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "team_members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.team-member"
+    }
+  }
+}

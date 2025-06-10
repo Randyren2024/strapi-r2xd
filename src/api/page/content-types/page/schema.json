@@ -38,6 +38,25 @@
         }
       }
     },
+    "page_builder": {
+      "type": "dynamiczone",
+      "components": [
+        "page-builder.hero-section",
+        "page-builder.text-block",
+        "page-builder.image-gallery",
+        "page-builder.stats-section",
+        "page-builder.team-section",
+        "page-builder.cta-section",
+        "page-builder.mission-vision",
+        "page-builder.values-section",
+        "page-builder.technology-section"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "seo_title": {
       "type": "string",
       "pluginOptions": {

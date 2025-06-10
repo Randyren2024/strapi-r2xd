@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_builder_values_sections",
+  "info": {
+    "displayName": "Values Section",
+    "icon": "heart",
+    "description": "Company values section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.value-item"
+    }
+  }
+}

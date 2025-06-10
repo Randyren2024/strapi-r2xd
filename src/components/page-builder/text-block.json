@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_builder_text_blocks",
+  "info": {
+    "displayName": "Text Block",
+    "icon": "file-text",
+    "description": "Rich text content block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": ["left", "center", "right"],
+      "default": "left"
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["transparent", "light", "dark", "primary"],
+      "default": "transparent"
+    }
+  }
+}
