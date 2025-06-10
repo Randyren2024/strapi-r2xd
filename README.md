@@ -6,13 +6,22 @@ This example deploys self-hosted version of [Strapi](https://strapi.io/). Intern
 
 ## ✨ Features
 
-- Strapi
-- Postgres
+- Strapi v5.11.0
+- PostgreSQL with connection pooling
+- Environment-aware configuration
+- Auto-generated API documentation
 
 ## 💁‍♀️ How to use
 
 - Click the Railway button 👆
-- Add the environment variables
+- Add the required environment variables:
+  - `DATABASE_URL`: PostgreSQL connection string
+  - `APP_KEYS`: Comma-separated app keys (min 2)
+  - Optional variables:
+    - `DATABASE_SSL`: Enable SSL (default: false)
+    - `DATABASE_DEBUG`: Debug mode (default: false)
+    - `PROXY_ENABLED`: Enable proxy (default: true)
+    - `URL`: Server URL (default: http://localhost:1337)
 - Media will automatically be persisted between deploys!
 
 ## 💻 Developing locally
