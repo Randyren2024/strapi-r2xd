@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_product_testimonial_items",
+  "info": {
+    "displayName": "Testimonial Item",
+    "description": "Individual testimonial with customer info and review"
+  },
+  "options": {},
+  "attributes": {
+    "customerName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "customerTitle": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "customerCompany": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "review": {
+      "type": "text",
+      "required": true,
+      "maxLength": 500
+    },
+    "customerAvatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}
